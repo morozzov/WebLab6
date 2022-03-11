@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'YogaSansLigh';
+  src: url(*/fonts/YogaSansLight.ttf);
+}
+@font-face {
+  font-family: 'AntoniaTextMedium';
+  src: url(*/fonts/AntoniaRegular.ttf);
+}
+
+main{
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+table{
+  text-align: left;
+  border-collapse: collapse;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+
+  width: 100%;
+  border: 2px solid;
+  border-color: #ced1d4;
+  
+  color: #58595b;
+  font-family: 'YogaSansLigh';
+  font-size: x-large;
+  font-weight: normal;
+}
+td{
+  border: 2px solid;
+  border-color: #ced1d4;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+th{
+  border: 2px solid;
+  border-color: #ced1d4;
+  padding: 15px;
+  padding-bottom: 10px;
+  background-color: #ebecec; 
+}
+div.table-title p{
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+  color: #58595b;
+  font-family: 'YogaSansLigh';
+  font-size: large;
+  font-weight: normal;
+}
+div.text p{
+  margin-top: 30px;
+  margin-right: 45px;
+  color: #1a1818;
+  font-family: 'AntoniaTextMedium';
+  font-size: x-large;
+}
+div.text span{
+  color: #3390df;
+}
+hr{
+  margin-top: 40px;;
+}
