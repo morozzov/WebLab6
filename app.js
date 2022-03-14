@@ -10,12 +10,12 @@ app.get("/", function (request, response) {
 app.use('*/css',express.static('public/css'));
 app.use('*/fonts',express.static('public/fonts'));
 
-app.get("/main", function (request, response) {
+app.get("/done", function (request, response) {
     
-    response.sendFile(__dirname + "/public/main.html");
+    response.sendFile(__dirname + "/public/done.html");
 });
-app.get("/second", function (request, response) {
-    response.sendFile(__dirname + "/public/second.html");
+app.get("/about", function (request, response) {
+    response.sendFile(__dirname + "/public/about.html");
 });
 app.post("/", urlencodedParser, function (request, response) {
     if(!request.body) return response.sendStatus(400);
