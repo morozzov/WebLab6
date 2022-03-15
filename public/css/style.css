@@ -132,6 +132,16 @@ header{
   width: 150px;
   color: #047400;
 }
+.task-new-button {
+  position: absolute;
+  bottom: 10px;
+  width: 80px;
+  color: #000000;
+}
+.task-new-select {
+  position: relative;
+  bottom: -5px;
+}
 .task-not-button {
   position: absolute;
   bottom: 10px;
